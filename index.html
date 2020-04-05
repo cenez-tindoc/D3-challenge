@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>D3Times</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/d3Style.css">
+
+</head>
+
+<body>
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12 col-md-12">
+        <h1>D3Times</h1>
+        <br></br>
+        <h2>Poverty, Age, Household Income correlation to Healthcare, Obesity and Smoking</h2>
+          <hr>
+          <h6>By selecting different axes in the chart below, you can compare data types to get the values used for the different analyses</h6>
+          <hr>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-xs-14  col-md-9">
+        <div id="scatter">
+          <!-- We append our chart here. -->
+        </div>
+      </div>
+    </div>
+    <br></br>
+    <div class="row">
+      <div class="col-xs-12  col-md-15">
+        <div class="article">
+          
+          <h3>Poverty vs.</h3>
+          <p>As poverty increases, there is an increase in the lack of healthcare. However, the rates of obesity decrease, as poverty increases.
+            Both of these factors could be related to the availability of food and healthcare to the impoverished. However, smoking rates remain stable regardless
+            of poverty levels which indicates that even those living in poverty are opting to smoke. This doesn't take into account the rates or amount
+            smoked, which could differ based on poverty levels.
+          </p>
+          <h3>Age vs.</h3>
+          <p>As people gets older there is a trend towards decrease in healthcare and obesity, but increase in smoking. These trends aren't profound and further data would
+            need to be collected to show how strong the correlation is. Note that the median ages of this data set are between 28 and 38. With a 10 year median age 
+            difference, there may not be enough of a disparity to show a large or strong trend in these comparisons. Further data should be used among a wider array of
+            age groups to compare these values.
+          </p>
+          <h3>Income vs.</h3>
+          <p>As household income increases, fewer members of the population lack healthcare. Along with this, obesity levels decrease on average as income increases.
+            However, smokers do not show a direct correlation to income. While there is greater disparity between data points as income increases, the median
+            percentage of smokers remains similar. Location and environmental factors due to state differences may play a role in these values as well - that
+            is something that should be looked into for the future.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer-->
+  <div id="footer">
+    <p>The Coding Boot Camp&copy;2020</p>
+  </div>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3-tip/0.9.1/d3-tip.js"></script>
+  <script src="https://d3js.org/d3.v5.min.js"></script>
+  <script type="text/javascript" src="app03.js"></script>
+
+</body>
+
+</html>
